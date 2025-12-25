@@ -1,0 +1,15 @@
+{
+  "name": "node-painpoint-crawler",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Keyword search crawler + pain-point extraction (Playwright + OpenAI-compatible).",
+  "scripts": {
+    "crawl": "node src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "openai": "^4.73.1",
+    "playwright": "^1.50.0"
+  }
+}
